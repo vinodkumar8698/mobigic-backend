@@ -6,7 +6,7 @@ const authRoutes = require('./routes/authRoutes');
 const fileRoutes = require('./routes/fileRoutes');
 const app = express();
 
-const DB = "mongodb+srv://vinay8698:Smart%40123@vinay8698.kvuxg.mongodb.net/?retryWrites=true&w=majority";
+const DB = "mongodb+srv://vinay8698:Smart%40123@vinay8698vuxg.mongodb.net/?retryWrites=true&w=majority";
 
 app.use(bodyParser.json());
 app.use(cors());
